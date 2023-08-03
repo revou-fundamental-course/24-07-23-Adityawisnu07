@@ -137,8 +137,9 @@ img {vertical-align: middle;}
     display: flex;
 }
 .form {
-    background-color: rgba(9, 9, 9, 0.3);
-    background-position:left
+  background-color: rgba(9, 9, 9, 0.3);
+  background-position:left
+  
 }
 #Our-Package {
     background-color: rgba(104, 102, 102, 0.3);
@@ -148,10 +149,10 @@ img {vertical-align: middle;}
     font-size: 25px;
     color: white;
 }
-#Our-PackageCity {
+#Our-PackageCity > div > h3 {
   display: flex;
-  align-self: center;
-  justify-content: space-around
+  justify-content: center;
+  align-self:flex-end
 }
 #Closing {
     background-color: rgba(104, 102, 102, 0.3);
@@ -161,14 +162,22 @@ img {vertical-align: middle;}
     font-size: 25px;
     color: white;
 }
+#Closing > div {
+  font-size: 20px;
+}
 
   
 footer{
-  background-color: rgba(104, 102, 102, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 10px;
   text-align: center;
   color: white;
 }
+table, th {
+  border:1px solid black;
+}
+
+
 
 
 
